@@ -16,7 +16,8 @@
     - [Free Backend Hosting](#free-backend-hosting)
       - [Serverless](#serverless)
       - [Server-Based](#server-based)
-    - [Free Static and Serverless functions hosting](#free-static-and-serverless-functions-hosting)
+    - [Free Full-Stack App Hosting](#free-full-stack-app-hosting)
+  - [Databases](#databases)
   - [Random Useful NPM Packages](#random-useful-npm-packages)
 
 - [Contributing](#contributing)
@@ -46,17 +47,43 @@
 
   - ### Free Static Site Hosting
 
-    - lorem ipsum
+    - [Vercel](https://vercel.com/)
+    - [Surge](https://surge.sh/)
+    - [Firebase](https://firebase.google.com/)
+    - [Netlify](https://www.netlify.com/)
+    - [Render](https://render.com/)
+    - [Cloudflare Pages](https://pages.cloudflare.com/)
+    - [Github Pages](https://pages.github.com/)
 
   - ### Free Backend Hosting
 
     - ### Serverless
-      - lorem ipsum
+      - [Vercel](https://vercel.com/)
+      - [Firebase](https://firebase.google.com/): Need to add payment details even for free serverless functions quota.
+      - [Netlify](https://www.netlify.com/)
+      - [Cloudflare Workers](https://workers.cloudflare.com/)
     - ### Server-Based
-      - lorem ipsum
 
-  - ### Free Static and Serverless functions hosting
-    - lorem ipsum
+      - [Railway](https://railway.app/)
+      - [Render](https://render.com/)
+      - [Heroku](https://www.heroku.com/)
+
+    - [Deta](https://www.deta.sh/): This is a different kind of hosting where your code is ran in a server environment but with a 10s limit. So between serverless and server based. But it does have the most lenient plans including free plans for a key-value store named Deta Base and a media cloud storage named Deta Drive. I would say good for a simple Express api or a Flask app.
+
+  - ### Free Full-Stack App Hosting
+    - [Vercel](https://vercel.com/): Serverless for backend.
+    - [Netlify](https://www.netlify.com/): Serverless for backend.
+    - [Firebase](https://firebase.google.com/): Need to add payment details even for free serverless functions quota.
+    - [Cloudflare Pages](https://pages.cloudflare.com/): Can add a `functions` directory to deploy serverless functions to [Cloudflare Workers](https://workers.cloudflare.com/).
+    - [Render](https://render.com/): Can host a static site and a web-service like an express separately.
+    - [Railway](https://railway.app/): Only possible by SSR, in short, no CDN/Static Site hosting.
+    - [Heroku](https://www.heroku.com/): Only possible by SSR, in short, no CDN/Static Site hosting.
+
+- ## Databases
+
+  - [MongoDB Atlas](https://www.mongodb.com/atlas/database): MongoDB (NoSQL)
+  - [Upstash](https://upstash.com/): Redis (NoSQL)
+  - [Redis Cloud](https://redis.com/redis-enterprise-cloud/overview/): Redis (NoSQL)
 
 - ## Random Useful NPM Packages
   - lorem ipsum
