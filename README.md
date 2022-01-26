@@ -17,7 +17,7 @@
       - [Serverless](#serverless)
       - [Server-Based](#server-based)
     - [Free Full-Stack App Hosting](#free-full-stack-app-hosting)
-  - [Databases](#databases)
+  - [Databases with Free Plans](#databases-with-free-plans)
   - [Random Useful NPM Packages](#random-useful-npm-packages)
 
 - [Contributing](#contributing)
@@ -79,11 +79,15 @@
     - [Railway](https://railway.app/): Only possible by SSR, in short, no CDN/Static Site hosting.
     - [Heroku](https://www.heroku.com/): Only possible by SSR, in short, no CDN/Static Site hosting.
 
-- ## Databases
+- ## Databases with Free Plans
 
   - [MongoDB Atlas](https://www.mongodb.com/atlas/database): MongoDB (NoSQL)
   - [Upstash](https://upstash.com/): Redis (NoSQL)
   - [Redis Cloud](https://redis.com/redis-enterprise-cloud/overview/): Redis (NoSQL)
+  - [Deta Base](https://docs.deta.sh/docs/base/about/): Fast, Scalable, NoSql Database with unlimited storage (NoSQL)
+  - [bit.io](https://bit.io/) Postgres (SQL)
+  - [PlanetScale](https://planetscale.com/): Serverless MySQL (SQL)
+  - [Fauna](https://fauna.com/): FaunaDB (FQL / NoSQL)
 
 - ## Random Useful NPM Packages
   - lorem ipsum
